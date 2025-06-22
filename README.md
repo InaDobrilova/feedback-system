@@ -148,9 +148,10 @@ Each feedback item contains:
 - **Authentication and authorization**
 - **Tests**: Including Unit Tests and E2E Testing
 
-### Prompts use during development
+### Prompts used during development
 
-- generation of documentation
-- commenting code
-- fixing typescript errors
-- project and dependency setup
+- Project setup - `Please help me setup a project using react, vite and Material UI`
+- Generation of documentation - `Please generate documentation for the project, based on the folder structure, features, dependencies, models and how to install and use the system.`
+- Commenting code - `Please add comments throught the project, so it serves the next developer best.`
+- Fixing typescript errors - `Please fix the following typescript errors (provided list of errors)`
+- Resolving build errors - `I am getting this build error "Too many open files Error: EMFILE: too many open files" how do I fix it?`
